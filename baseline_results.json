@@ -9,10 +9,10 @@
             "prediction": null,
             "correct": false,
             "response": "To solve this problem, we need to determine Allen's current age first, then use that information to find out how old he will be 10 years from now.\n\nGiven:\n- The ratio of Darrell's age to Allen's age is \\(7:11\\).\n- Their combined age is currently 162.\n\nLet's denote:\n- Darrell's age as \\(D\\)\n- Allen's age as \\(A\\)\n\nFrom the given ratio, we can write:\n\\[ \\frac{D}{A} = \\frac{7}{11} \\]\n\nThis implies:\n\\[ D = \\frac{7}{11} A \\]\n\nThe sum of their ages is:\n\\[ D + A = 162 \\]\n\nSubstituting \\(D\\) with \\(\\frac{7}{11} A\\):\n\\[ \\frac{7}{11} A + A = 162 \\]\n\nCombining the terms on the left side:\n\\[ \\left( \\frac{7}{11} + 1 \\right) A = 162 \\]\n\\[ \\left( \\frac{7}{11} + \\frac{11}{11} \\right) A = 162 \\]\n\\[ \\frac{18}{11} A = 162 \\]\n\nNow, solving for \\(A\\):\n\\[ A = 162 \\times \\frac{11}{18} \\]\n\\[ A = 9 \\times 11 \\]\n\\[ A = 99 \\]\n\nSo, Allen's current age is 99 years.\n\nTo find out how old Allen will be 10 years from now:\n\\[ A_{10} = A + 10 \\]\n\\[ A_{10} = 99 + 10 \\]\n\\[ A_{10} = 109 \\]\n\nTherefore, Allen's age 10 years from now will be **109**.",
-            "latency": 4.466,
+            "latency": 4.917,
             "input_tokens": 82,
             "output_tokens": 415,
-            "tokens_per_second": 92.93,
+            "tokens_per_second": 84.39,
             "token_limit_reached": false
         },
         {
@@ -21,10 +21,10 @@
             "prediction": 63.0,
             "correct": false,
             "response": "To determine how many buttons Lorraine has at the end, we need to follow these steps:\n\n1. **Calculate the total value of Lorraine's initial collection:**\n   - Small stickers: \\(30 \\times 1 = 30\\) small buttons\n   - Large stickers: \\(40 \\times 3 = 120\\) large buttons\n\n2. **Determine the number of small stickers traded away:**\n   - Lorraine trades 90% of her small stickers:\n     \\[\n     0.9 \\times 30 = 27 \\text{ small stickers}\n     \\]\n   - The remaining small stickers:\n     \\[\n     30 - 27 = 3 \\text{ small stickers}\n     \\]\n\n3. **Determine the number of large stickers traded away:**\n   - Lorraine trades 50% of her large stickers:\n     \\[\n     0.5 \\times 120 = 60 \\text{ large stickers}\n     \\]\n   - The remaining large stickers:\n     \\[\n     120 - 60 = 60 \\text{ large stickers}\n     \\]\n\n4. **Calculate the total number of buttons traded away:**\n   - Total buttons traded away:\n     \\[\n     27 + 60 = 87 \\text{ buttons}\n     \\]\n\n5. **Determine the number of buttons Lorraine has left after trading:**\n   - Initial buttons:\n     \\[\n     120 \\text{ large buttons} + 30 \\text{ small buttons} = 150 \\text{ buttons}\n     \\]\n   - Buttons traded away:\n     \\[\n     87 \\text{ buttons}\n     \\]\n   - Remaining buttons:\n     \\[\n     150 - 87 = 63 \\text{ buttons}\n     \\]\n\nThus, the final number of buttons Lorraine has is \\(\\boxed{63}\\).",
-            "latency": 4.642,
+            "latency": 5.105,
             "input_tokens": 148,
             "output_tokens": 418,
-            "tokens_per_second": 90.05,
+            "tokens_per_second": 81.87,
             "token_limit_reached": false
         },
         {
@@ -33,10 +33,10 @@
             "prediction": 13.0,
             "correct": true,
             "response": "To determine the total number of letters in Indras' and her sister's names, we can follow these steps:\n\n1. Identify the number of letters in Indras' name:\n   \\[\n   \\text{Number of letters in Indras' name} = 6\n   \\]\n\n2. Calculate half the number of letters in Indras' name:\n   \\[\n   \\frac{\\text{Number of letters in Indras' name}}{2} = \\frac{6}{2} = 3\n   \\]\n\n3. Determine the number of additional letters in Indras' sister's name:\n   \\[\n   \\text{Additional letters} = 4\n   \\]\n\n4. Add the additional letters to the original number of letters in Indras' name to find the total number of letters in both names:\n   \\[\n   \\text{Total number of letters} = 6 + 3 + 4 = 13\n   \\]\n\nThus, the total number of letters in Indras' and her sister's names is:\n\\[\n\\boxed{13}\n\\]",
-            "latency": 2.434,
+            "latency": 2.821,
             "input_tokens": 86,
             "output_tokens": 228,
-            "tokens_per_second": 93.66,
+            "tokens_per_second": 80.83,
             "token_limit_reached": false
         },
         {
@@ -45,10 +45,10 @@
             "prediction": 5.0,
             "correct": true,
             "response": "To determine how many more laps Bethany can run compared to Quinn, we need to follow these steps:\n\n1. Calculate the number of laps each person can run:\n   - Bethany runs 10 laps per hour.\n   - Trey runs 4 more laps than Bethany, so he runs \\(10 + 4 = 14\\) laps per hour.\n   - Shaelyn runs half as many laps as Trey, so she runs \\(\\frac{14}{2} = 7\\) laps per hour.\n   - Quinn runs 2 fewer laps than Shaelyn, so she runs \\(7 - 2 = 5\\) laps per hour.\n\n2. Determine how many more laps Bethany can run compared to Quinn:\n   - Bethany runs 10 laps per hour.\n   - Quinn runs 5 laps per hour.\n   - The difference is \\(10 - 5 = 5\\).\n\nTherefore, Bethany can run \\(\\boxed{5}\\) more laps compared to Quinn.",
-            "latency": 2.608,
+            "latency": 2.589,
             "input_tokens": 107,
             "output_tokens": 208,
-            "tokens_per_second": 79.77,
+            "tokens_per_second": 80.34,
             "token_limit_reached": false
         },
         {
@@ -57,10 +57,10 @@
             "prediction": 40.0,
             "correct": false,
             "response": "To determine how many children are now following the ice cream truck after all the changes, we can break down the problem step-by-step.\n\n1. **Initial Setup:**\n   - There were originally 5 children following the truck.\n\n2. **First Street:**\n   - Each child follows the truck.\n   - Number of new children joining = 5 (original) + 5 (new)\n   - Total number of children at the end of the first street = 5 + 5 = 10\n\n3. **Second Street:**\n   - Each child follows the truck.\n   - Number of new children joining = 10 (current total) + 10 (new)\n   - Total number of children at the end of the second street = 10 + 10 = 20\n\n4. **Third Street:**\n   - Each child in the current group follows the truck.\n   - Number of new children joining = 20 (current total) + 20 (new)\n   - Total number of children at the end of the third street = 20 + 20 = 40\n\nTherefore, the final number of children following the truck is \\(\\boxed{40}\\).",
-            "latency": 2.919,
+            "latency": 2.779,
             "input_tokens": 139,
             "output_tokens": 254,
-            "tokens_per_second": 87.02,
+            "tokens_per_second": 91.39,
             "token_limit_reached": false
         },
         {
@@ -69,10 +69,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine how much time Kim slept on the day she woke up 5 minutes earlier than usual, we need to follow these steps:\n\n1. **Calculate the total time Kim spent awake during the day:**\n   - The original wake-up time was 6 a.m., which is 6 hours.\n   - She woke up 5 minutes earlier, so the new wake-up time became \\(6 \\text{ a.m.} + 5 \\text{ minutes} = 6:05 \\text{ a.m.}\\).\n   - From 6:05 a.m. to 7:00 a.m., she was awake for 1 hour.\n\n2. **Determine the duration of each segment of her sleep:**\n   - The total sleep time is 4 hours (from 10 p.m. to 6 a.m.).\n   - The segments of her sleep are:\n     - 1 hour from 10 p.m. to 11 p.m.\n     - 1 hour from 11 p.m. to 12 a.m.\n     - 1 hour from 12 a.m. to 1 a.m.\n     - 1 hour from 1 a.m. to 2 a.m.\n     - 1 hour from 2 a.m. to 3 a.m.\n     - 1 hour from 3 a.m. to 4 a.m.\n     - 1 hour from 4 a.m. to 5 a.m.\n     - 1 hour from 5 a.m. to 6 a.m.\n     - 1 hour from 6 a.m. to 7 a.m.\n     - 1 hour from 7 a.m. to 8 a.m.\n     - 1 hour from 8 a.m. to 9 a.m.\n     - 1 hour from 9 a.m. to 10 a.m.\n     - 1 hour from 10 a.m. to 11 a.m.\n     - 1 hour from 11 a.m. to 12 p.m.\n     - 1 hour from 12 p.m. to 1 p.m.\n     - 1 hour from 1 p.m. to 2 p.m.\n     - 1 hour from 2 p.m. to 3 p.m.\n     - 1 hour from 3 p.m. to 4 p.m.\n     - 1 hour from 4 p.m. to 5 p.m.\n     - 1 hour from 5 p.m. to 6 p.m.\n     - 1 hour from 6 p.m. to 7 p.m.\n     - 1 hour from 7 p.m. to 8 p.m.\n     - 1 hour from 8 p.m. to 9 p.m.\n     - 1 hour from 9 p.m. to 10 p.m.\n     - 1 hour from 10 p.m. to 11 p.m.\n     - 1 hour from 11 p.m. to 12 a.m.\n     - 1 hour from 12 a.m. to 1 a.m.\n     - 1 hour from 1 a.m. to 2 a.m.\n     - 1 hour from 2 a.m. to 3 a.m.\n     - 1 hour from 3 a.m. to 4 a.m.\n     - 1 hour from 4 a.m. to 5 a.m.\n     - 1 hour from 5 a.m. to 6 a.m.\n     - 1 hour from 6 a.m. to 7 a.m.\n     - 1 hour from 7 a.m. to 8 a.m.\n     - 1 hour from 8 a.m. to 9 a.m.\n     - 1 hour from 9 a.m. to 10 a.m.\n     - 1 hour from 10 a.m. to 11 a.m.\n     - 1 hour from 11 a.m. to 12 p.m.\n     - 1 hour from 12 p.m. to 1 p.m.\n     - 1 hour from 1 p.m. to 2 p.m.\n     - 1 hour from 2 p.m. to 3 p.m.\n     - 1 hour from 3 p.m. to 4 p.m.\n     - 1 hour from 4 p.m. to 5 p.m.\n     - 1 hour from 5 p.m. to 6 p.m.\n     - 1 hour from 6 p.m. to 7 p.m.\n     - 1 hour from 7 p.m. to 8 p.m.\n     - 1 hour from 8 p.m. to 9 p.m.\n     - 1 hour from 9 p.m. to 10 p",
-            "latency": 11.935,
+            "latency": 12.234,
             "input_tokens": 155,
             "output_tokens": 1024,
-            "tokens_per_second": 85.8,
+            "tokens_per_second": 83.7,
             "token_limit_reached": true
         },
         {
@@ -81,10 +81,10 @@
             "prediction": null,
             "correct": false,
             "response": "To solve this problem, let's break it down step-by-step:\n\n1. **Initial Number of Bananas:**\n   - Gunther initially has 48 bananas.\n\n2. **Arnold's First Theft:**\n   - Arnold steals half of the bananas.\n     \\[\n     \\text{Bananas stolen} = \\frac{48}{2} = 24\n     \\]\n   - After Arnold's theft:\n     \\[\n     \\text{Remaining bananas} = 48 - 24 = 24\n     \\]\n\n3. **Second Theft:**\n   - Arnold steals an additional 12 bananas.\n     \\[\n     \\text{Total remaining after second theft} = 24 - 12 = 12\n     \\]\n\n4. **Third Day Addition:**\n   - Gunther adds another 6 bananas.\n     \\[\n     \\text{Final total} = 12 + 6 = 18\n     \\]\n\nTherefore, Gunther found 18 bananas in the pile on the third day.",
-            "latency": 2.562,
+            "latency": 2.563,
             "input_tokens": 150,
             "output_tokens": 223,
-            "tokens_per_second": 87.04,
+            "tokens_per_second": 87.01,
             "token_limit_reached": false
         },
         {
@@ -93,10 +93,10 @@
             "prediction": 34.0,
             "correct": true,
             "response": "To determine the total number of utensils Jonathan has remaining after giving some to Pedro, we can follow these steps:\n\n1. **Calculate the number of measuring spoons:**\n   - Jonathan has 2/3 as many measuring spoons as measuring cups.\n   - He has 2 dozen cups, which is \\(2 \\times 12 = 24\\) cups.\n   - Therefore, the number of measuring spoons is \\(\\frac{2}{3} \\times 24\\).\n\n2. **Perform the multiplication:**\n   \\[\n   \\frac{2}{3} \\times 24 = \\frac{2 \\times 24}{3} = \\frac{48}{3} = 16\n   \\]\n   So, Jonathan has 16 measuring spoons.\n\n3. **Determine the total number of utensils before giving any away:**\n   - Jonathan initially has 24 cups (measuring cups) + 16 measuring spoons = 40 utensils.\n\n4. **Subtract the number of utensils given to Pedro:**\n   - Jonathan gives Pedro 6 measuring spoons.\n   - The new total number of utensils is \\(40 - 6 = 34\\).\n\nTherefore, the total number of utensils Jonathan has remaining is \\(\\boxed{34}\\).",
-            "latency": 3.267,
+            "latency": 3.13,
             "input_tokens": 87,
             "output_tokens": 283,
-            "tokens_per_second": 86.61,
+            "tokens_per_second": 90.41,
             "token_limit_reached": false
         },
         {
@@ -105,10 +105,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine how far Martha's turtle can crawl in 40 seconds, we need to follow these steps:\n\n1. **Determine the speed of the turtle:**\n   - The cat runs at 15 feet per second.\n   - The cat's speed is 5 times that of the turtle.\n\n   \\[\n   \\text{Speed of the turtle} = 5 \\times 15 \\text{ feet/second}\n   \\]\n\n2. **Calculate the distance the turtle can crawl in 40 seconds:**\n   - Distance = Speed × Time\n\n   \\[\n   \\text{Distance} = (5 \\times 15) \\text{ feet/second} \\times 40 \\text{ seconds}\n   \\]\n\n3. **Perform the multiplication:**\n\n   \\[\n   (5 \\times 15) = 75\n   \\]\n   \\[\n   75 \\times 40 = 3000\n   \\]\n\nTherefore, the turtle can crawl \\(3000\\) feet in 40 seconds.",
-            "latency": 2.591,
+            "latency": 2.678,
             "input_tokens": 81,
             "output_tokens": 225,
-            "tokens_per_second": 86.85,
+            "tokens_per_second": 84.01,
             "token_limit_reached": false
         },
         {
@@ -117,10 +117,10 @@
             "prediction": 98.0,
             "correct": false,
             "response": "To determine how many flights to France the first plane takes in one day, we need to follow these steps:\n\n1. **Calculate the total number of flights per day:**\n   - Let \\( F \\) be the number of flights the first plane takes to France.\n   - Since the first plane flies to Greece for three-quarters of its flights, it flies to France for \\( \\frac{F}{4} \\).\n   - The remaining flights are split equally between flights to Germany and France, so each of these flights is \\( \\frac{F}{8} \\).\n\n   Therefore, the total number of flights per day is:\n   \\[\n   F + \\frac{F}{4} + \\frac{F}{8}\n   \\]\n\n2. **Set up an equation based on the given information:**\n   - The first plane flies to Greece for three-quarters of its flights, which means it flies to France for \\( \\frac{3}{4}F \\).\n   - The second plane flies to Poland, which amounts to half the number of flights the first plane makes.\n\n   So, the total number of flights per day can also be expressed as:\n   \\[\n   \\frac{3}{4}F + \\frac{F}{8} = \\text{number of flights to Poland}\n   \\]\n\n3. **Combine the equations:**\n   - From the first step, we have:\n     \\[\n     F + \\frac{F}{4} + \\frac{F}{8} = \\text{total flights per day}\n     \\]\n   - From the second step, we have:\n     \\[\n     \\frac{3}{4}F + \\frac{F}{8} = \\text{number of flights to Poland}\n     \\]\n\n4. **Simplify the total flights per day equation:**\n   - Find a common denominator for the fractions:\n     \\[\n     \\frac{6}{8}F + \\frac{F}{8} = \\text{total flights per day}\n     \\]\n   - Combine the terms:\n     \\[\n     \\frac{7F}{8} = \\text{total flights per day}\n     \\]\n\n5. **Determine the value of \\( F \\):**\n   - We know from the problem statement that the second plane flies to Poland with 44 trips, which is half the number of flights the first plane makes.\n   - Therefore, the total number of flights per day must be twice this number:\n     \\[\n     \\text{Total flights per day} = 2 \\times 44 = 88\n     \\]\n\n6. **Substitute the total flights per day into the simplified equation:**\n   - Substitute \\( \\frac{7F}{8} = 88 \\):\n     \\[\n     \\frac{7F}{8} = 88\n     \\]\n   - Solve for \\( F \\):\n     \\[\n     7F = 88 \\times 8\n     \\]\n     \\[\n     7F = 696\n     \\]\n     \\[\n     F = \\frac{696}{7}\n     \\]\n     \\[\n     F = 98.2857...\n     \\]\n\nSince \\( F \\) must be an integer (as it represents the number of flights), we round down to the nearest whole number:\n\\[\nF = 98\n\\]\n\nThus, the first plane takes \\(\\boxed{98}\\) flights to France in one day.",
-            "latency": 8.357,
+            "latency": 8.117,
             "input_tokens": 133,
             "output_tokens": 732,
-            "tokens_per_second": 87.6,
+            "tokens_per_second": 90.18,
             "token_limit_reached": false
         },
         {
@@ -129,10 +129,10 @@
             "prediction": 35.0,
             "correct": false,
             "response": "To determine how many balloons Sally finally carried into the school, we need to follow these steps:\n\n1. **Calculate the number of red balloons after some burst:**\n   - Initially, there were 25 red balloons.\n   - 40% of the red balloons burst.\n   \\[\n   0.40 \\times 25 = 10 \\text{ red balloons}\n   \\]\n   - Therefore, the number of red balloons left is:\n   \\[\n   25 - 10 = 15 \\text{ red balloons}\n   \\]\n\n2. **Calculate the number of yellow balloons after being shaken off:**\n   - Initially, there were 12 yellow balloons.\n   - Half of the yellow balloons were released.\n   \\[\n   \\frac{1}{2} \\times 12 = 6 \\text{ yellow balloons}\n   \\]\n   - Therefore, the number of yellow balloons left is:\n   \\[\n   12 - 6 = 6 \\text{ yellow balloons}\n   \\]\n\n3. **Add the blue balloons caught in the tree:**\n   - Initially, there were 8 blue balloons.\n   - 75% of the blue balloons were caught in the tree.\n   \\[\n   0.75 \\times 8 = 6 \\text{ blue balloons}\n   \\]\n   - Therefore, the number of blue balloons left is:\n   \\[\n   8 + 6 = 14 \\text{ blue balloons}\n   \\]\n\n4. **Sum up all the remaining balloons:**\n   - Red balloons: 15\n   - Yellow balloons: 6\n   - Blue balloons: 14\n\n\\[\n15 + 6 + 14 = 35\n\\]\n\nThus, the total number of balloons Sally finally carried into the school is \\(\\boxed{35}\\).",
-            "latency": 4.549,
+            "latency": 4.719,
             "input_tokens": 167,
             "output_tokens": 396,
-            "tokens_per_second": 87.05,
+            "tokens_per_second": 83.91,
             "token_limit_reached": false
         },
         {
@@ -141,10 +141,10 @@
             "prediction": 12.0,
             "correct": true,
             "response": "To determine how many pieces of fruit are left after Lola ate some, we can follow these steps:\n\n1. Calculate the total number of each type of fruit Kira initially bought:\n   - Apples: \\(3\\) (from Kira)\n   - Bananas: \\(5\\) (from Kira)\n   - Oranges: \\(6\\) (from Kira)\n\n2. Determine the total number of fruits Kira initially had:\n   \\[\n   3 + 5 + 6 = 14\n   \\]\n\n3. Subtract the number of fruits eaten by Lola from the initial total:\n   \\[\n   14 - 2 = 12\n   \\]\n\nThus, the number of pieces of fruit left is \\(\\boxed{12}\\).",
-            "latency": 1.79,
+            "latency": 1.766,
             "input_tokens": 77,
             "output_tokens": 160,
-            "tokens_per_second": 89.36,
+            "tokens_per_second": 90.62,
             "token_limit_reached": false
         },
         {
@@ -153,10 +153,10 @@
             "prediction": null,
             "correct": false,
             "response": "To solve this problem, we need to determine how much water remains after adding the orange drink and then calculate the amount of water left when one liter has been spilled.\n\nFirst, let's find out how much water is in the original 10 liters of orange drink:\n- The drink is two-thirds water.\n- Therefore, the amount of water in the orange drink is \\(\\frac{2}{3} \\times 10 = \\frac{20}{3}\\) liters.\n\nNext, we add the 10 liters of orange drink to the 15 liters of pineapple drink:\n- Total volume now is \\(10 + 15 = 25\\) liters.\n\nWhen one liter of the orange drink spills, the total volume becomes \\(25 - 1 = 24\\) liters.\n\nNow, we need to find out how much water is in the remaining 24 liters of juice:\n- Since the orange drink was originally \\(\\frac{20}{3}\\) liters of water, and one liter was spilled, the remaining water is \\(\\frac{20}{3} - 1 = \\frac{20}{3} - \\frac{3}{3} = \\frac{17}{3}\\) liters.\n\nTherefore, the amount of water in the remaining 24 liters is \\(\\boxed{\\frac{17}{3}}\\).",
-            "latency": 3.19,
+            "latency": 3.262,
             "input_tokens": 106,
             "output_tokens": 287,
-            "tokens_per_second": 89.98,
+            "tokens_per_second": 87.98,
             "token_limit_reached": false
         },
         {
@@ -165,10 +165,10 @@
             "prediction": 24.0,
             "correct": true,
             "response": "To determine the total number of movies Jill and her friends can watch in 4 weeks, we need to follow these steps:\n\n1. Calculate the number of movies watched on each day:\n   - On Saturday, they watch 4 movies.\n   - On Sunday, they watch half the number of movies on Saturday, which is \\( \\frac{4}{2} = 2 \\) movies.\n\n2. Determine the total number of movies watched over one week:\n   - Total movies on Saturday: 4\n   - Total movies on Sunday: 2\n   - Total movies in one week: \\( 4 + 2 = 6 \\)\n\n3. Calculate the total number of movies watched over 4 weeks:\n   - Total movies in 4 weeks: \\( 6 \\times 4 = 24 \\)\n\nThus, the total number of movies they can watch in 4 weeks is \\(\\boxed{24}\\).",
-            "latency": 2.116,
+            "latency": 2.192,
             "input_tokens": 84,
             "output_tokens": 192,
-            "tokens_per_second": 90.72,
+            "tokens_per_second": 87.59,
             "token_limit_reached": false
         },
         {
@@ -177,10 +177,10 @@
             "prediction": 875.0,
             "correct": false,
             "response": "To determine how many questions Mark left incomplete, we need to calculate the total number of questions he could have completed in both tests and then subtract this from the total number of questions on each test.\n\nFirst, let's find out how many questions Mark could have completed in the first test:\n- The first test consists of 75 questions.\n- Mark completes the test at a rate of 5 questions per hour.\n- Therefore, the time taken to complete the first test is \\( \\frac{75}{5} = 15 \\) hours.\n\nNext, let's find out how many questions Mark could have completed in the second test:\n- The second test consists of 100 questions.\n- Again, Mark completes the test at a rate of 5 questions per hour.\n- Therefore, the time taken to complete the second test is \\( \\frac{100}{5} = 20 \\) hours.\n\nNow, let's calculate the total number of questions Mark could have completed in both tests:\n- Total questions completed in the first test: \\( 75 \\times 5 = 375 \\)\n- Total questions completed in the second test: \\( 100 \\times 5 = 500 \\)\n\nAdding these together gives the total number of questions Mark could have completed:\n\\[ 375 + 500 = 875 \\]\n\nSince Mark has 8 hours and 6 hours respectively to complete the tests, we can calculate the number of questions he leaves incomplete:\n- Questions left incomplete in the first test: \\( 875 - (75 \\times 5) = 875 - 375 = 500 \\)\n- Questions left incomplete in the second test: \\( 875 - (100 \\times 5) = 875 - 500 = 375 \\)\n\nTherefore, the total number of questions Mark left incomplete is:\n\\[ 500 + 375 = 875 \\]\n\nSo, the final answer is:\n\\[\n\\boxed{875}\n\\]",
-            "latency": 4.971,
+            "latency": 4.944,
             "input_tokens": 116,
             "output_tokens": 443,
-            "tokens_per_second": 89.12,
+            "tokens_per_second": 89.6,
             "token_limit_reached": false
         },
         {
@@ -189,10 +189,10 @@
             "prediction": 120.0,
             "correct": true,
             "response": "To determine the total number of friends Amy and Lily have together after transferring to a new school, we can follow these steps:\n\n1. Identify the number of friends Lily made: \\( L = 50 \\).\n2. Determine the number of friends Amy made: According to the problem, Amy made 20 more friends than Lily. Therefore, Amy's number of friends is:\n   \\[\n   A = L + 20 = 50 + 20 = 70\n   \\]\n3. Calculate the total number of friends Amy and Lily have together:\n   \\[\n   A + L = 70 + 50 = 120\n   \\]\n\nThus, the total number of friends Amy and Lily have together is \\(\\boxed{120}\\).",
-            "latency": 1.939,
+            "latency": 1.848,
             "input_tokens": 78,
             "output_tokens": 165,
-            "tokens_per_second": 85.08,
+            "tokens_per_second": 89.27,
             "token_limit_reached": false
         },
         {
@@ -201,10 +201,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine how many oranges are good in the basket, we can follow these steps:\n\n1. **Identify the total number of oranges**: There are 25 oranges in total.\n\n2. **Determine the percentage of good oranges**: The problem states that 20% of the oranges are good.\n\n3. **Calculate the number of good oranges**:\n   - First, find 20% of 25: \n     \\[\n     20\\% = \\frac{20}{100} = 0.20\n     \\]\n   - Then, multiply this value by the total number of oranges:\n     \\[\n     0.20 \\times 25 = 5\n     \\]\n\nTherefore, there are 5 good oranges in the basket.",
-            "latency": 1.91,
+            "latency": 1.868,
             "input_tokens": 81,
             "output_tokens": 166,
-            "tokens_per_second": 86.92,
+            "tokens_per_second": 88.88,
             "token_limit_reached": false
         },
         {
@@ -213,10 +213,10 @@
             "prediction": null,
             "correct": false,
             "response": "To find out how much 6 erasers and 8 pencils cost in total, we can break down the problem into two parts:\n\n1. Calculate the cost of 6 erasers:\n   - Each eraser costs $2.\n   - Therefore, 6 erasers will cost \\(6 \\times 2 = \\$12\\).\n\n2. Calculate the cost of 8 pencils:\n   - Each pencil costs $3.\n   - Therefore, 8 pencils will cost \\(8 \\times 3 = \\$24\\).\n\nNow, add the two amounts together to get the total cost:\n- Total cost = Cost of erasers + Cost of pencils\n- Total cost = \\$12 + \\$24\n\nSo, the final answer is **\\$36**.",
-            "latency": 1.824,
+            "latency": 1.775,
             "input_tokens": 69,
             "output_tokens": 159,
-            "tokens_per_second": 87.18,
+            "tokens_per_second": 89.6,
             "token_limit_reached": false
         },
         {
@@ -225,10 +225,10 @@
             "prediction": 168.0,
             "correct": false,
             "response": "To determine how many face masks Tyrion uses in 2 days, we need to follow these steps:\n\n1. Calculate the total number of face masks Tyrion uses in one day.\n2. Multiply that daily usage by 2 to get the weekly usage.\n3. Multiply the weekly usage by 2 to get the monthly usage.\n\nLet's go through each step in detail:\n\n1. **Daily Face Mask Usage:**\n   - Tyrion changes his face mask twice every time he goes out.\n   - He goes out three times a day.\n   - Therefore, the number of face masks used per day is:\n     \\[\n     2 \\text{ (changes)} \\times 3 \\text{ (goes out)} = 6 \\text{ face masks}\n     \\]\n\n2. **Weekly Face Mask Usage:**\n   - There are 7 days in a week.\n   - So, the number of face masks used per week is:\n     \\[\n     6 \\text{ face masks/day} \\times 7 \\text{ days/week} = 42 \\text{ face masks/week}\n     \\]\n\n3. **Monthly Face Mask Usage:**\n   - There are 4 weeks in a month.\n   - So, the number of face masks used per month is:\n     \\[\n     42 \\text{ face masks/week} \\times 4 \\text{ weeks/month} = 168 \\text{ face masks/month}\n     \\]\n\nTherefore, the total number of face masks Tyrion uses in 2 days is:\n\\[\n\\boxed{168}\n\\]",
-            "latency": 3.802,
+            "latency": 3.703,
             "input_tokens": 79,
             "output_tokens": 336,
-            "tokens_per_second": 88.37,
+            "tokens_per_second": 90.75,
             "token_limit_reached": false
         },
         {
@@ -237,10 +237,10 @@
             "prediction": 45.0,
             "correct": true,
             "response": "To determine the total number of stamps Max bought, we need to calculate the number of each type of stamp he purchased and then sum them up.\n\n1. **Snowflake Stamps:**\n   Max bought 16 snowflake stamps.\n\n2. **Truck Stamps:**\n   Max bought 3 more truck stamps than snowflake stamps. Since he bought 16 snowflake stamps:\n   \\[\n   \\text{Number of truck stamps} = 16 + 3 = 19\n   \\]\n\n3. **Rose Stamps:**\n   Max bought 9 fewer rose stamps than truck stamps. Since he bought 19 truck stamps:\n   \\[\n   \\text{Number of rose stamps} = 19 - 9 = 10\n   \\]\n\n4. **Total Number of Stamps:**\n   To find the total number of stamps, we add the number of each type of stamp together:\n   \\[\n   \\text{Total number of stamps} = 16 (\\text{snowflake}) + 19 (\\text{truck}) + 10 (\\text{rose})\n   \\]\n   \\[\n   \\text{Total number of stamps} = 16 + 19 + 10 = 45\n   \\]\n\nThus, the total number of stamps Max bought is \\(\\boxed{45}\\).",
-            "latency": 3.215,
+            "latency": 3.261,
             "input_tokens": 114,
             "output_tokens": 287,
-            "tokens_per_second": 89.27,
+            "tokens_per_second": 88.02,
             "token_limit_reached": false
         },
         {
@@ -249,10 +249,10 @@
             "prediction": 45.0,
             "correct": true,
             "response": "To determine how many fairies remain after the described events, we can break down the problem step-by-step:\n\n1. **Initial Fairies**: Katelyn initially sees 50 fairies.\n\n2. **Fairies Flying East**: One friend sees half as many fairies as Katelyn did. Since Katelyn saw 50 fairies:\n   \\[\n   \\text{Fairies seen by friend} = \\frac{50}{2} = 25\n   \\]\n   So, the total number of fairies now is:\n   \\[\n   50 + 25 = 75\n   \\]\n\n3. **Fairies Flying Away**: Ten minutes later, 30 fairies fly away. The new total number of fairies is:\n   \\[\n   75 - 30 = 45\n   \\]\n\nThus, the number of fairies remaining is \\(\\boxed{45}\\).",
-            "latency": 2.226,
+            "latency": 2.229,
             "input_tokens": 120,
             "output_tokens": 200,
-            "tokens_per_second": 89.86,
+            "tokens_per_second": 89.71,
             "token_limit_reached": false
         },
         {
@@ -261,10 +261,10 @@
             "prediction": 8.0,
             "correct": true,
             "response": "To determine how many pieces of wire Tracy obtained, we need to follow these steps:\n\n1. **Convert the total length of the wire from feet to inches:**\n   Since there are 12 inches in a foot, we multiply the total length in feet by 12:\n   \\[\n   4 \\text{ feet} \\times 12 \\text{ inches/foot} = 48 \\text{ inches}\n   \\]\n\n2. **Determine how many 6-inch pieces can be made from 48 inches:**\n   We divide the total length of the wire by the length of each piece:\n   \\[\n   \\frac{48 \\text{ inches}}{6 \\text{ inches/piece}} = 8 \\text{ pieces}\n   \\]\n\nThus, Tracy obtained \\(\\boxed{8}\\) pieces of wire.",
-            "latency": 2.414,
+            "latency": 1.948,
             "input_tokens": 80,
             "output_tokens": 179,
-            "tokens_per_second": 74.15,
+            "tokens_per_second": 91.9,
             "token_limit_reached": false
         },
         {
@@ -273,10 +273,10 @@
             "prediction": 36.0,
             "correct": true,
             "response": "To determine the total number of students in the school auditorium, we need to follow these steps:\n\n1. Calculate the total number of seats in the auditorium.\n2. Determine how many seats were occupied by the administrators.\n3. Subtract the number of seats occupied by the administrators from the total number of seats to find out how many seats remain.\n4. Determine how many of those remaining seats were occupied by the parents.\n5. Subtract the number of seats occupied by the parents from the remaining seats to find out how many seats remained for the students.\n6. The number of seats remaining for the students is the total number of students.\n\nLet's start with step 1:\n- Each row has 18 seats.\n- There are 4 rows.\nSo, the total number of seats is:\n\\[ 18 \\times 4 = 72 \\]\n\nNext, step 2:\n- One-fourth of the seats were occupied by the administrators.\nSo, the number of seats occupied by the administrators is:\n\\[ \\frac{1}{4} \\times 72 = 18 \\]\nThis means the number of seats remaining after accounting for the administrators is:\n\\[ 72 - 18 = 54 \\]\n\nNow, step 3:\n- One-third of the remaining seats were occupied by the parents.\nSo, the number of seats occupied by the parents is:\n\\[ \\frac{1}{3} \\times 54 = 18 \\]\nThis means the number of seats remaining after accounting for the parents is:\n\\[ 54 - 18 = 36 \\]\n\nFinally, step 4:\n- The rest of the seats were occupied by the students.\nSo, the number of seats occupied by the students is:\n\\[ 36 \\]\n\nTherefore, the total number of students in the school auditorium is:\n\\[ \\boxed{36} \\]",
-            "latency": 4.428,
+            "latency": 4.354,
             "input_tokens": 107,
             "output_tokens": 391,
-            "tokens_per_second": 88.3,
+            "tokens_per_second": 89.8,
             "token_limit_reached": false
         },
         {
@@ -285,10 +285,10 @@
             "prediction": 2.0,
             "correct": false,
             "response": "To determine how much Ellen pays for one carrot every day, we need to follow these steps:\n\n1. **Identify the cost of the salad:**\n   - The salad costs $6.\n\n2. **Determine the cost of the yogurt:**\n   - The yogurt is half the price of the salad.\n   - Therefore, the cost of the yogurt = \\(\\frac{6}{2} = 3\\) dollars.\n\n3. **Calculate the total cost of the salad and yogurt per day:**\n   - Total cost of the salad and yogurt = \\(6 + 3 = 9\\) dollars.\n\n4. **Determine the daily cost of the carrots:**\n   - Ellen spends $11 on her goods each day.\n   - The total cost of the salad and yogurt is $9.\n   - Therefore, the daily cost of the carrots = \\(11 - 9 = 2\\) dollars.\n\nThus, Ellen pays \\(\\boxed{2}\\) dollars for one carrot every day.",
-            "latency": 2.322,
+            "latency": 2.294,
             "input_tokens": 101,
             "output_tokens": 206,
-            "tokens_per_second": 88.71,
+            "tokens_per_second": 89.8,
             "token_limit_reached": false
         },
         {
@@ -297,10 +297,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine how many points Erin had before scoring 14 points, we can follow these steps:\n\n1. **Identify the current score of Sara**: Sara scored 8 points.\n\n2. **Determine the relationship between Erin's and Sara's scores**:\n   - Erin has three times more points than Sara.\n\n3. **Calculate Erin's current score**:\n   - Since Sara's score is 8, and Erin has three times that amount, we calculate:\n     \\[\n     \\text{Erin's current score} = 3 \\times 8 = 24\n     \\]\n\nTherefore, Erin had 24 points before scoring 14 points.",
-            "latency": 1.553,
+            "latency": 1.537,
             "input_tokens": 73,
             "output_tokens": 139,
-            "tokens_per_second": 89.52,
+            "tokens_per_second": 90.42,
             "token_limit_reached": false
         },
         {
@@ -309,10 +309,10 @@
             "prediction": 25.0,
             "correct": false,
             "response": "To determine how much Scarlett spent in total, we need to calculate the cost of each item she purchased and then sum these costs.\n\n1. **Cost of rocks:**\n   - Number of bags of rocks: 2\n   - Cost per bag: $2.50\n   \\[\n   \\text{Total cost of rocks} = 2 \\times 2.50 = 5.00\n   \\]\n\n2. **Cost of corals:**\n   - Number of pieces of coral: 3\n   - Cost per piece: $2.00\n   \\[\n   \\text{Total cost of corals} = 3 \\times 2.00 = 6.00\n   \\]\n\n3. **Cost of fish:**\n   - Number of fish: 20\n   - Cost per fish: $0.50\n   \\[\n   \\text{Total cost of fish} = 20 \\times 0.50 = 10.00\n   \\]\n\n4. **Cost of fish food:**\n   - Cost per fish food: $2.00\n   \\[\n   \\text{Total cost of fish food} = 2 \\times 2.00 = 4.00\n   \\]\n\nNow, we sum all these amounts to find the total expenditure:\n\\[\n\\text{Total expenditure} = \\text{Total cost of rocks} + \\text{Total cost of corals} + \\text{Total cost of fish} + \\text{Total cost of fish food}\n\\]\n\\[\n\\text{Total expenditure} = 5.00 + 6.00 + 10.00 + 4.00 = 25.00\n\\]\n\nThus, the total amount Scarlett spent is \\(\\boxed{25}\\).",
-            "latency": 4.911,
+            "latency": 4.389,
             "input_tokens": 129,
             "output_tokens": 394,
-            "tokens_per_second": 80.23,
+            "tokens_per_second": 89.78,
             "token_limit_reached": false
         },
         {
@@ -321,10 +321,10 @@
             "prediction": 480.0,
             "correct": false,
             "response": "To determine how much money John makes in a week, we need to follow these steps:\n\n1. Calculate the total number of apartments in all three complexes.\n2. Determine the size of the third complex relative to the combined size of the first two complexes.\n3. Calculate the total number of collections John makes in a week.\n4. Compute the total earnings based on the number of collections.\n\n**Step 1: Calculate the total number of apartments in all three complexes.**\n\nThe first two complexes have 200 apartments each:\n\\[ 2 \\times 200 = 400 \\text{ apartments} \\]\n\nThe third complex has 60% more apartments than the combined number of the first two complexes:\n\\[ 400 + (0.60 \\times 400) = 400 + 240 = 640 \\text{ apartments} \\]\n\n**Step 2: Determine the size of the third complex relative to the combined size of the first two complexes.**\n\nThe third complex is 60% larger than the combined size of the first two complexes:\n\\[ 400 + 0.60 \\times 400 = 400 + 240 = 640 \\]\nSo, the third complex has 640 apartments.\n\n**Step 3: Calculate the total number of collections John makes in a week.**\n\nJohn collects garbage 3 times a week from each place:\n\\[ 3 \\times 400 = 1200 \\text{ collections} \\]\n\\[ 3 \\times 640 = 1920 \\text{ collections} \\]\n\n**Step 4: Compute the total earnings based on the number of collections.**\n\nEach collection earns John $0.40 per apartment:\n\\[ 1200 \\text{ collections} \\times \\$0.40/\\text{collection} = \\$480 \\]\n\nTherefore, the total amount of money John makes in a week is:\n\\[\n\\boxed{480}\n\\]",
-            "latency": 5.084,
+            "latency": 4.971,
             "input_tokens": 116,
             "output_tokens": 436,
-            "tokens_per_second": 85.76,
+            "tokens_per_second": 87.71,
             "token_limit_reached": false
         },
         {
@@ -333,10 +333,10 @@
             "prediction": null,
             "correct": false,
             "response": "To solve this problem, we need to calculate the probabilities of Jerry rolling a number greater than 3 and two even numbers in a row on a six-sided die.\n\n### Step-by-Step Solution:\n\n1. **Probability of Rolling a Number Greater than 3:**\n   - A standard six-sided die has numbers from 1 to 6.\n   - The numbers greater than 3 are 4, 5, and 6.\n   - There are 3 favorable outcomes out of 6 possible outcomes.\n   \\[\n   P(\\text{Number} > 3) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of outcomes}} = \\frac{3}{6} = \\frac{1}{2}\n   \\]\n\n2. **Probability of Rolling Two Even Numbers in a Row:**\n   - Even numbers on a six-sided die are 2, 4, and 6.\n   - The probability of rolling an even number on any single roll is:\n     \\[\n     P(\\text{Even}) = \\frac{3}{6} = \\frac{1}{2}\n     \\]\n   - For two consecutive rolls, the probability is:\n     \\[\n     P(\\text{Two Even}) = P(\\text{First Roll is Even}) \\times P(\\text{Second Roll is Even})\n     \\]\n     Since each roll is independent,\n     \\[\n     P(\\text{Two Even}) = \\left(\\frac{1}{2}\\right) \\times \\left(\\frac{1}{2}\\right) = \\frac{1}{4}\n     \\]\n\n3. **Combined Probability:**\n   - We want to find the combined probability of rolling a number greater than 3 and two even numbers in a row.\n   - This can be calculated as:\n     \\[\n     P(\\text{Number > 3 and Two Even}) = P(\\text{Number > 3}) \\times P(\\text{Two Even})\n     \\]\n     Substituting the values we found:\n     \\[\n     P(\\text{Number > 3 and Two Even}) = \\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}\n     \\]\n\n4. **Percentage Calculation:**\n   - To express this probability as a percentage, multiply by 100:\n     \\[\n     \\frac{1}{8} \\times 100\\% = 12.5\\%\n     \\]\n\nTherefore, the final answer is \\(12.5\\%\\).",
-            "latency": 6.062,
+            "latency": 6.196,
             "input_tokens": 84,
             "output_tokens": 534,
-            "tokens_per_second": 88.09,
+            "tokens_per_second": 86.18,
             "token_limit_reached": false
         },
         {
@@ -345,10 +345,10 @@
             "prediction": 9.0,
             "correct": false,
             "response": "To determine the cost per bagel after applying the discount, we can follow these steps:\n\n1. **Calculate the total number of bagels:**\n   - Each pack contains 9 bagels.\n   - Russell is ordering 4 packs.\n   \\[\n   \\text{Total bagels} = 4 \\times 9 = 36\n   \\]\n\n2. **Determine the total cost before the discount:**\n   - The original price for one pack is $10.00.\n   - With a 10% discount, the discounted price per pack is:\n   \\[\n   \\text{Discounted price per pack} = 10.00 \\times (1 - 0.10) = 10.00 \\times 0.90 = 9.00\n   \\]\n   - Therefore, the total cost for 4 packs without the discount is:\n   \\[\n   \\text{Total cost without discount} = 4 \\times 9.00 = 36.00\n   \\]\n\n3. **Calculate the cost per bagel after the discount:**\n   - The total cost for 4 packs with the discount is $36.00.\n   - The total number of bagels is still 36.\n   \\[\n   \\text{Cost per bagel} = \\frac{36.00}{4} = 9.00\n   \\]\n\nThus, the cost per single bagel after receiving the 10% discount is $\\boxed{9.00}$.",
-            "latency": 3.744,
+            "latency": 3.739,
             "input_tokens": 112,
             "output_tokens": 334,
-            "tokens_per_second": 89.2,
+            "tokens_per_second": 89.32,
             "token_limit_reached": false
         },
         {
@@ -357,10 +357,10 @@
             "prediction": null,
             "correct": false,
             "response": "To solve this problem, we need to set up an equation based on the information given.\n\nLet's denote:\n- \\( x \\) as the length of the shorter piece,\n- \\( y \\) as the length of the longer piece.\n\nAccording to the problem, the total length of the board is 40 feet, and the longer piece is 4 times longer than the shorter piece. This gives us the following relationship:\n\n\\[ y = 4x \\]\n\nAdditionally, since the sum of the lengths of both pieces must equal the total length of the board:\n\n\\[ x + y = 40 \\]\n\nNow we substitute \\( y \\) from the first equation into the second equation:\n\n\\[ x + 4x = 40 \\]\n\\[ 5x = 40 \\]\n\nNext, we solve for \\( x \\):\n\n\\[ x = \\frac{40}{5} \\]\n\\[ x = 8 \\]\n\nSo, the length of the shorter piece is 8 feet. Now, we find the length of the longer piece:\n\n\\[ y = 4x \\]\n\\[ y = 4 \\times 8 \\]\n\\[ y = 32 \\]\n\nTherefore, the length of the longer piece is 32 feet.",
-            "latency": 2.895,
+            "latency": 2.869,
             "input_tokens": 88,
             "output_tokens": 257,
-            "tokens_per_second": 88.77,
+            "tokens_per_second": 89.56,
             "token_limit_reached": false
         },
         {
@@ -369,10 +369,10 @@
             "prediction": 2.0,
             "correct": true,
             "response": "To determine how many days 720 grams of cat food will last for 3 cats, we can follow these steps:\n\n1. Calculate the total amount of cat food consumed per day by all three cats.\n   Each cat eats 60 grams of cat food twice a day, so each cat consumes \\(60 \\times 2 = 120\\) grams of cat food per day.\n   Therefore, 3 cats consume \\(120 \\times 3 = 360\\) grams of cat food per day.\n\n2. Determine how many days 720 grams of cat food will last if it is enough to feed 360 grams per day.\n   We need to divide the total amount of cat food available (720 grams) by the daily consumption rate (360 grams).\n   So, \\(720 \\div 360 = 2\\).\n\nTherefore, 720 grams of cat food will last for \\(\\boxed{2}\\) days.",
-            "latency": 2.646,
+            "latency": 2.394,
             "input_tokens": 80,
             "output_tokens": 210,
-            "tokens_per_second": 79.36,
+            "tokens_per_second": 87.73,
             "token_limit_reached": false
         },
         {
@@ -381,10 +381,10 @@
             "prediction": 40.0,
             "correct": false,
             "response": "To solve this problem, we need to follow these steps:\n\n1. Determine how many elves quit after the first round of quitting.\n2. Subtract the number of elves who quit from the total to find out how many remain.\n\nLet's start with step 1: We know that a third of the elves quit after children vomit on them. Since there are 60 elves, we calculate:\n\\[\n\\text{Number of elves who quit} = \\frac{1}{3} \\times 60 = 20\n\\]\nSo, 20 elves quit after the first round of quitting.\n\nNext, we subtract the number of elves who quit from the total to find out how many remain:\n\\[\n\\text{Remaining elves} = 60 - 20 = 40\n\\]\n\nTherefore, the number of elves left is \\boxed{40}.",
-            "latency": 2.221,
+            "latency": 2.142,
             "input_tokens": 97,
             "output_tokens": 183,
-            "tokens_per_second": 82.4,
+            "tokens_per_second": 85.44,
             "token_limit_reached": false
         },
         {
@@ -393,10 +393,10 @@
             "prediction": 4.0,
             "correct": true,
             "response": "To determine how much change Adam received, we need to follow these steps:\n\n1. Calculate the total cost of the candies Adam bought.\n2. Subtract this total cost from the amount Adam paid.\n\nFirst, let's calculate the total cost of the candies:\n- Cost of 7 candies of type A: \\(7 \\times \\$0.5 = \\$3.5\\)\n- Cost of 10 candies of type B: \\(10 \\times \\$0.75 = \\$7.5\\)\n\nAdding these together gives the total cost:\n\\[ \\$3.5 + \\$7.5 = \\$11.0 \\]\n\nNext, we subtract the total cost from the amount Adam paid:\n\\[ \\$15 - \\$11.0 = \\$4.0 \\]\n\nTherefore, the change Adam received is \\(\\boxed{4}\\).",
-            "latency": 2.026,
+            "latency": 2.005,
             "input_tokens": 110,
             "output_tokens": 175,
-            "tokens_per_second": 86.4,
+            "tokens_per_second": 87.27,
             "token_limit_reached": false
         },
         {
@@ -405,10 +405,10 @@
             "prediction": 234.0,
             "correct": false,
             "response": "To determine how far Elvis is from his house after his journey, we need to calculate the total distance he traveled and then subtract that from his starting point.\n\nFirst, let's calculate the distance Elvis traveled in each direction:\n- Elvis traveled west for 5 hours at an average speed of 18 mph.\n- Elvis traveled east for 8 hours at an average speed of 18 mph.\n\nThe distance traveled in each direction can be calculated using the formula:\n\\[ \\text{Distance} = \\text{Speed} \\times \\text{Time} \\]\n\nFor the westward trip:\n\\[ \\text{Distance}_{\\text{west}} = 18 \\, \\text{mph} \\times 5 \\, \\text{hours} = 90 \\, \\text{miles} \\]\n\nFor the eastward trip:\n\\[ \\text{Distance}_{\\text{east}} = 18 \\, \\text{mph} \\times 8 \\, \\text{hours} = 144 \\, \\text{miles} \\]\n\nNext, we add these two distances together to find the total distance traveled:\n\\[ \\text{Total Distance} = \\text{Distance}_{\\text{west}} + \\text{Distance}_{\\text{east}} = 90 \\, \\text{miles} + 144 \\, \\text{miles} = 234 \\, \\text{miles} \\]\n\nFinally, to find out how far Elvis is from his house, we subtract the total distance traveled from his starting point (which is his house):\n\\[ \\text{Distance from house} = \\text{Total Distance} - \\text{Starting Point} = 234 \\, \\text{miles} - 0 \\, \\text{miles} = 234 \\, \\text{miles} \\]\n\nTherefore, Elvis is \\( \\boxed{234} \\) miles away from his house.",
-            "latency": 6.697,
+            "latency": 4.825,
             "input_tokens": 99,
             "output_tokens": 416,
-            "tokens_per_second": 62.12,
+            "tokens_per_second": 86.22,
             "token_limit_reached": false
         },
         {
@@ -417,10 +417,10 @@
             "prediction": 0.0,
             "correct": false,
             "response": "To determine how much money Cameron would save by choosing the option that adds 70 pesos for every additional hour after 12 hours, we need to calculate the total cost under both options and then find the difference.\n\n### Option 1: Paying for 24 Hours\n\n- Initial price for 12 hours: 1000 pesos\n- Additional charge per hour after 12 hours: 70 pesos\n- Total cost for 24 hours:\n  \\[\n  1000 + (24 - 12) \\times 70 = 1000 + 12 \\times 70 = 1000 + 840 = 1840 \\text{ pesos}\n  \\]\n\n### Option 2: Adding 70 Pesos for Every Hour After 12 Hours\n\n- Initial price for 12 hours: 1000 pesos\n- Additional charge per hour after 12 hours: 70 pesos\n- Total cost for 24 hours:\n  \\[\n  1000 + (24 - 12) \\times 70 = 1000 + 12 \\times 70 = 1000 + 840 = 1840 \\text{ pesos}\n  \\]\n- For the first 12 hours, he pays only the initial price:\n  \\[\n  1000 \\text{ pesos}\n  \\]\n- For the remaining 12 hours, he pays an additional 70 pesos each hour:\n  \\[\n  12 \\times 70 = 840 \\text{ pesos}\n  \\]\n- Total cost for 24 hours with the additional charge:\n  \\[\n  1000 + 840 = 1840 \\text{ pesos}\n  \\]\n\n### Savings Calculation\n\nCameron saves $0 because the total cost under both options is the same:\n\n\\[\n\\boxed{0}\n\\]",
-            "latency": 4.953,
+            "latency": 5.178,
             "input_tokens": 160,
             "output_tokens": 434,
-            "tokens_per_second": 87.62,
+            "tokens_per_second": 83.81,
             "token_limit_reached": false
         },
         {
@@ -429,10 +429,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine the total cost for installing the required items, we need to calculate the cost of the initial installation and then add the additional costs for the extra items.\n\n### Initial Installation Cost:\n- **Mirrors:** 6 mirrors at $129.00 each\n- **Chandeliers:** 2 chandeliers at $129.00 each\n\nTotal cost for initial installation:\n\\[ \\text{Cost} = (6 \\times 129) + (2 \\times 129) \\]\n\\[ \\text{Cost} = 774 + 258 \\]\n\\[ \\text{Cost} = 1032 \\]\n\n### Additional Costs:\n- **Additional Chandeliers:** 2 more chandeliers at $129.00 each\n- **Additional Pictures:** 20 more pictures at $100.00 each\n\nTotal cost for additional items:\n\\[ \\text{Cost} = (2 \\times 129) + (20 \\times 100) \\]\n\\[ \\text{Cost} = 258 + 2000 \\]\n\\[ \\text{Cost} = 2258 \\]\n\n### Total Cost:\nAdd the initial installation cost and the additional costs:\n\\[ \\text{Total Cost} = 1032 + 2258 \\]\n\\[ \\text{Total Cost} = 3290 \\]\n\nTherefore, the total cost for Angela's installation is **$3290**.",
-            "latency": 3.398,
+            "latency": 3.817,
             "input_tokens": 131,
             "output_tokens": 326,
-            "tokens_per_second": 95.95,
+            "tokens_per_second": 85.41,
             "token_limit_reached": false
         },
         {
@@ -441,10 +441,10 @@
             "prediction": 129200.0,
             "correct": true,
             "response": "To determine the total value of both houses combined, we need to follow these steps:\n\n1. **Identify the price of Juan's house:**\n   - The price of Juan's house is given as \\( \\$76,000 \\).\n\n2. **Determine the percentage reduction in price from Herb's house:**\n   - The problem states that Juan's house is 30% less expensive than Herb's.\n\n3. **Calculate the amount of the reduction:**\n   - To find 30% of \\( \\$76,000 \\), we use the formula:\n     \\[\n     \\text{Reduction} = \\left( \\frac{30}{100} \\right) \\times 76,000\n     \\]\n   - Simplifying this, we get:\n     \\[\n     \\text{Reduction} = 0.30 \\times 76,000 = 22,800\n     \\]\n\n4. **Subtract the reduction from the original price to find the new price of Juan's house:**\n   - Subtracting the reduction from the original price:\n     \\[\n     \\text{New Price of Juan's House} = 76,000 - 22,800 = 53,200\n     \\]\n\n5. **Add the prices of both houses together:**\n   - Add the new price of Juan's house to the original price of Herb's house:\n     \\[\n     \\text{Total Value} = 76,000 + 53,200 = 129,200\n     \\]\n\nThus, the total value of both houses combined is \\( \\boxed{129200} \\).",
-            "latency": 4.105,
+            "latency": 4.485,
             "input_tokens": 97,
             "output_tokens": 377,
-            "tokens_per_second": 91.85,
+            "tokens_per_second": 84.05,
             "token_limit_reached": false
         },
         {
@@ -453,10 +453,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine the total cost of replacing Mike's movie collection, we need to follow these steps:\n\n1. **Calculate the number of movies in each category:**\n   - Total movies: 600\n   - Series movies: \\( \\frac{1}{3} \\times 600 = 200 \\)\n   - Old movies: \\( 600 - 200 = 400 \\)\n\n2. **Determine the cost of series movies:**\n   - Cost per series movie: $6\n   - Number of series movies: 200\n   - Total cost for series movies: \\( 200 \\times 6 = 1200 \\)\n\n3. **Calculate the number of old movies:**\n   - Percentage of old movies: 40%\n   - Number of old movies: \\( 0.4 \\times 400 = 160 \\)\n\n4. **Determine the cost of old movies:**\n   - Cost per old movie: $5\n   - Total cost for old movies: \\( 160 \\times 5 = 800 \\)\n\n5. **Calculate the total cost of all movies:**\n   - Total cost: \\( 1200 + 800 = 2000 \\)\n\nTherefore, the total cost of replacing Mike's movie collection is **$2000**.",
-            "latency": 3.332,
+            "latency": 3.54,
             "input_tokens": 134,
             "output_tokens": 299,
-            "tokens_per_second": 89.74,
+            "tokens_per_second": 84.46,
             "token_limit_reached": false
         },
         {
@@ -465,10 +465,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine how many feet of crepe paper James needs to buy, we first need to calculate the perimeter of the rectangular backyard fence.\n\nThe formula for the perimeter \\( P \\) of a rectangle is:\n\\[ P = 2 \\times (\\text{length} + \\text{width}) \\]\n\nGiven:\n- Length (\\( l \\)) = 20 feet\n- Width (\\( w \\)) = 15 feet\n\nSubstitute these values into the formula:\n\\[ P = 2 \\times (20 + 15) \\]\n\\[ P = 2 \\times 35 \\]\n\\[ P = 70 \\text{ feet} \\]\n\nTherefore, James needs to buy **70 feet** of crepe paper to hang the streamers from his backyard fence.",
-            "latency": 1.795,
+            "latency": 1.915,
             "input_tokens": 100,
             "output_tokens": 165,
-            "tokens_per_second": 91.95,
+            "tokens_per_second": 86.16,
             "token_limit_reached": false
         },
         {
@@ -477,10 +477,10 @@
             "prediction": 252000.0,
             "correct": false,
             "response": "To determine how much Mark pays in total for the cars, we need to follow these steps:\n\n1. Calculate the total cost of the cars before taxes.\n2. Add the registration fee to the total cost of the cars.\n\n**Step 1: Calculate the total cost of the cars before taxes.**\n\nEach car costs $20,000, and there are 12 cars:\n\\[\n\\text{Total cost of one car} = \\$20,000\n\\]\n\\[\n\\text{Total cost of 12 cars} = 12 \\times \\$20,000 = \\$240,000\n\\]\n\n**Step 2: Add the registration fee to the total cost of the cars.**\n\nThe registration fee is $1000 per car:\n\\[\n\\text{Registration fee per car} = \\$1000\n\\]\n\\[\n\\text{Total registration fee} = 12 \\times \\$1000 = \\$12,000\n\\]\n\nNow, add the total cost of the cars and the registration fee:\n\\[\n\\text{Total cost} = \\$240,000 + \\$12,000 = \\$252,000\n\\]\n\nTherefore, the total amount Mark pays for everything is:\n\\[\n\\boxed{252000}\n\\]",
-            "latency": 3.452,
+            "latency": 3.438,
             "input_tokens": 104,
             "output_tokens": 297,
-            "tokens_per_second": 86.04,
+            "tokens_per_second": 86.4,
             "token_limit_reached": false
         },
         {
@@ -489,10 +489,10 @@
             "prediction": 20.0,
             "correct": false,
             "response": "To determine the total number of seashells brought by all participants, we need to follow these steps:\n\n1. **Calculate the number of groups:**\n   Since there are 90 people and each group consists of 9 people, the number of groups is:\n   \\[\n   \\frac{90}{9} = 10\n   \\]\n\n2. **Determine the number of seashells brought per group:**\n   Each group brings back 2 seashells.\n\n3. **Calculate the total number of seashells brought by all groups:**\n   Since there are 10 groups and each group brings back 2 seashells, the total number of seashells is:\n   \\[\n   10 \\times 2 = 20\n   \\]\n\nThus, the total number of seashells brought by all participants is \\(\\boxed{20}\\).",
-            "latency": 2.146,
+            "latency": 2.208,
             "input_tokens": 120,
             "output_tokens": 188,
-            "tokens_per_second": 87.59,
+            "tokens_per_second": 85.14,
             "token_limit_reached": false
         },
         {
@@ -501,10 +501,10 @@
             "prediction": null,
             "correct": false,
             "response": "To calculate the total cost of your lunch, we need to consider both the price of the fish sub and the price of the cold-cut combo sub.\n\n1. The price of the fish sub is $40.\n2. The price of the cold-cut combo sub is three times the price of the fish sub, which means:\n   \\[\n   3 \\times 40 = 120\n   \\]\n   So, the cold-cut combo sub costs $120.\n\nNow, add the prices together to get the total cost:\n\\[\n40 + 120 = 160\n\\]\n\nTherefore, the total cost of your lunch is **$160**.",
-            "latency": 1.628,
+            "latency": 1.697,
             "input_tokens": 80,
             "output_tokens": 146,
-            "tokens_per_second": 89.67,
+            "tokens_per_second": 86.04,
             "token_limit_reached": false
         },
         {
@@ -513,10 +513,10 @@
             "prediction": 120.0,
             "correct": false,
             "response": "To determine how much money Johnny had after a year, we can follow these steps:\n\n1. **Initial Amount**: Johnny started with $20.\n\n2. **Adding Extra Money**: Johnny added an extra $10 to his initial amount:\n   \\[\n   20 + 10 = 30\n   \\]\n\n3. **Investing the Money**: The investment tripled in a year. So, we need to calculate three times the original amount:\n   \\[\n   3 \\times 30 = 90\n   \\]\n\n4. **Total Amount After One Year**: Adding the total amount from step 3 to the initial amount:\n   \\[\n   30 + 90 = 120\n   \\]\n\nThus, after one year, Johnny had \\(\\boxed{120}\\) dollars.",
-            "latency": 2.123,
+            "latency": 2.053,
             "input_tokens": 88,
             "output_tokens": 177,
-            "tokens_per_second": 83.37,
+            "tokens_per_second": 86.23,
             "token_limit_reached": false
         },
         {
@@ -525,10 +525,10 @@
             "prediction": null,
             "correct": false,
             "response": "To solve this problem, we need to determine how many votes the loser received based on the given information.\n\n1. **Total Number of Students**: The total number of students who voted is 80.\n2. **Winner's Vote Percentage**: The winner got \\( \\frac{3}{4} \\) of the votes.\n3. **Votes for Winner**: To find out how many votes the winner received, we multiply the total number of votes by the percentage they won:\n   \\[\n   \\text{Votes for Winner} = 80 \\times \\frac{3}{4}\n   \\]\n4. **Votes for Loser**: Since the total number of votes is 80, the number of votes the loser received is the remaining part after the winner has been accounted for:\n   \\[\n   \\text{Votes for Loser} = 80 - \\text{Votes for Winner}\n   \\]\n\nLet's perform these calculations step-by-step:\n\n### Step 1: Calculate Votes for Winner\n\n\\[\n\\text{Votes for Winner} = 80 \\times \\frac{3}{4} = 80 \\times 0.75 = 60\n\\]\n\n### Step 2: Calculate Votes for Loser\n\n\\[\n\\text{Votes for Loser} = 80 - 60 = 20\n\\]\n\nTherefore, the number of votes the loser got is 20.",
-            "latency": 3.435,
+            "latency": 3.566,
             "input_tokens": 92,
             "output_tokens": 298,
-            "tokens_per_second": 86.75,
+            "tokens_per_second": 83.56,
             "token_limit_reached": false
         },
         {
@@ -537,10 +537,10 @@
             "prediction": 296.0,
             "correct": true,
             "response": "To determine the total cost Helen paid for her hotel and bus trips, we need to break down the costs step-by-step.\n\nFirst, let's calculate the cost of the hotel:\n- The hotel cost is $80 per night.\n- Helen stayed for 3 nights.\n\\[\n\\text{Hotel cost} = 80 \\times 3 = 240 \\text{ dollars}\n\\]\n\nNext, let's calculate the cost of the bus rides:\n- Each bus ride costs 10% of the hotel cost.\n- The cost of one bus ride is \\(0.10 \\times 80 = 8\\) dollars.\n- Helen rode the bus 7 times.\n\\[\n\\text{Bus cost} = 7 \\times 8 = 56 \\text{ dollars}\n\\]\n\nNow, we add the two amounts together to find the total cost:\n\\[\n\\text{Total cost} = \\text{Hotel cost} + \\text{Bus cost} = 240 + 56 = 296 \\text{ dollars}\n\\]\n\nThus, the total amount Helen paid for the hotel and bus travels during her trip is \\(\\boxed{296}\\).",
-            "latency": 2.933,
+            "latency": 3.087,
             "input_tokens": 118,
             "output_tokens": 252,
-            "tokens_per_second": 85.92,
+            "tokens_per_second": 81.63,
             "token_limit_reached": false
         },
         {
@@ -549,10 +549,10 @@
             "prediction": 3200.0,
             "correct": false,
             "response": "To solve this problem, we need to determine the prices of the gold and diamond Jewells first, then calculate the total price for all three.\n\n1. **Determine the price of the gold Jewell:**\n   - We know that the price of a diamond Jewell is $2000.\n   - The price of a gold Jewell is \\( \\frac{4}{5} \\) times the price of a diamond Jewell.\n   - Therefore, the price of the gold Jewell = \\( \\frac{4}{5} \\times 2000 \\).\n\n\\[\n\\text{Price of gold Jewell} = \\frac{4}{5} \\times 2000 = 1600\n\\]\n\n2. **Determine the price of the diamond Jewell:**\n   - The cost of a silver Jewell is $400 less than the price of a gold Jewell.\n   - Therefore, the price of the diamond Jewell = Price of gold Jewell - $400.\n\n\\[\n\\text{Price of diamond Jewell} = 1600 - 400 = 1200\n\\]\n\n3. **Calculate the total price for all three jewels:**\n   - Total price = Price of diamond Jewell + Price of gold Jewell + Price of silver Jewell.\n   - Total price = \\( 1200 + 1600 + 400 \\).\n\n\\[\n\\text{Total price} = 1200 + 1600 + 400 = 3200\n\\]\n\nThus, the total price for all three jewels is \\( \\boxed{3200} \\).",
-            "latency": 4.206,
+            "latency": 4.402,
             "input_tokens": 113,
             "output_tokens": 363,
-            "tokens_per_second": 86.31,
+            "tokens_per_second": 82.46,
             "token_limit_reached": false
         },
         {
@@ -561,10 +561,10 @@
             "prediction": 30.0,
             "correct": true,
             "response": "To determine the total age of all three family members, we need to follow these steps:\n\n1. Determine Nani's brother's age.\n2. Determine Nani's sister's age based on her relationship with Nani's brother.\n3. Sum up the ages of Nani, his brother, and his sister.\n\nLet's start with step 1:\n- Nani is 8 years old.\n- Nani's brother is twice his age, so his brother is \\( 2 \\times 8 = 16 \\) years old.\n\nNext, for step 2:\n- Nani's sister is 25% younger than him. This means she is 75% (or half) of Nani's age. So, her age is \\( 0.75 \\times 8 = 6 \\) years old.\n\nFinally, for step 3:\n- The total age of all three family members is the sum of Nani's age, his brother's age, and his sister's age: \\( 8 + 16 + 6 = 30 \\).\n\nTherefore, the total age of all three family members is \\(\\boxed{30}\\).",
-            "latency": 2.864,
+            "latency": 2.821,
             "input_tokens": 84,
             "output_tokens": 245,
-            "tokens_per_second": 85.54,
+            "tokens_per_second": 86.84,
             "token_limit_reached": false
         },
         {
@@ -573,10 +573,10 @@
             "prediction": 92.0,
             "correct": false,
             "response": "To determine how much shorter a candle will be after burning from 1:00 PM to 5:00 PM, we need to calculate the total melting of the candle and then subtract this from its original length.\n\nFirst, let's find out how long the candle is burned:\n- The candle starts at 1:00 PM and ends at 5:00 PM.\n- There are \\(5 - 1 = 4\\) hours in total.\n\nNext, we know that the candle melts by 2 cm per hour. Therefore, in 4 hours, the candle will melt:\n\\[ 4 \\text{ hours} \\times 2 \\text{ cm/hour} = 8 \\text{ cm} \\]\n\nNow, we subtract the melted length from the original length of the candle:\n\\[ 1 \\text{ meter} = 100 \\text{ cm} \\]\n\\[ 100 \\text{ cm} - 8 \\text{ cm} = 92 \\text{ cm} \\]\n\nThus, the candle will be \\(\\boxed{92}\\) cm shorter after burning from 1:00 PM to 5:00 PM.",
-            "latency": 2.771,
+            "latency": 2.827,
             "input_tokens": 83,
             "output_tokens": 249,
-            "tokens_per_second": 89.87,
+            "tokens_per_second": 88.09,
             "token_limit_reached": false
         },
         {
@@ -585,10 +585,10 @@
             "prediction": null,
             "correct": false,
             "response": "To determine how much it will cost Bob to buy the required amount of potting soil for his raised beds, we need to follow these steps:\n\n1. **Calculate the volume of one raised bed:**\n   - Width = 2 feet\n   - Length = 8 feet\n   - Height = 2 feet\n\n   Volume \\( V \\) = width × length × height\n   \\[\n   V = 2 \\text{ ft} \\times 8 \\text{ ft} \\times 2 \\text{ ft} = 32 \\text{ cubic feet}\n   \\]\n\n2. **Determine the total number of raised beds:**\n   - Number of raised beds = 10\n\n3. **Calculate the total volume needed:**\n   - Total volume = number of raised beds × volume per bed\n   \\[\n   \\text{Total volume} = 10 \\text{ beds} \\times 32 \\text{ cubic feet/bed} = 320 \\text{ cubic feet}\n   \\]\n\n4. **Find out how many bags of potting soil are needed:**\n   - Each bag holds 2 cubic feet of soil.\n\n   Number of bags needed:\n   \\[\n   \\text{Number of bags} = \\frac{\\text{Total volume}}{\\text{Volume per bag}}\n   \\]\n   \\[\n   \\text{Number of bags} = \\frac{320 \\text{ cubic feet}}{2 \\text{ cubic feet/bag}} = 160 \\text{ bags}\n   \\]\n\n5. **Calculate the total cost:**\n   - Cost per bag = $12\n\n   Total cost:\n   \\[\n   \\text{Total cost} = \\text{Number of bags} \\times \\text{Cost per bag}\n   \\]\n   \\[\n   \\text{Total cost} = 160 \\text{ bags} \\times 12 \\text{ dollars/bag} = 1920 \\text{ dollars}\n   \\]\n\nTherefore, the total cost for the potting soil is **$1920**.",
-            "latency": 5.109,
+            "latency": 5.036,
             "input_tokens": 116,
             "output_tokens": 446,
-            "tokens_per_second": 87.3,
+            "tokens_per_second": 88.56,
             "token_limit_reached": false
         },
         {
@@ -597,10 +597,10 @@
             "prediction": 6.0,
             "correct": true,
             "response": "To solve this problem, we need to determine the total number of balloons in the bundle based on the information given.\n\n1. **Identify the number of red and yellow balloons:**\n   - Benny threw 2 pieces of bologna at each red balloon.\n   - Benny threw 3 pieces of bologna at each yellow balloon.\n   - There are 58 pieces of bologna thrown in total.\n   - There are 20 red balloons.\n\n2. **Calculate the number of pieces of bologna thrown at the red balloons:**\n   \\[\n   \\text{Pieces of bologna thrown at red balloons} = 2 \\times 20 = 40\n   \\]\n\n3. **Determine the remaining pieces of bologna after throwing at the red balloons:**\n   \\[\n   \\text{Remaining pieces of bologna} = 58 - 40 = 18\n   \\]\n\n4. **Calculate the number of pieces of bologna thrown at the yellow balloons:**\n   \\[\n   \\text{Pieces of bologna thrown at yellow balloons} = 3 \\times \\text{Number of yellow balloons}\n   \\]\n   Since we don't know the exact number of yellow balloons yet, let's denote it as \\( y \\).\n\n5. **Set up the equation for the total pieces of bologna thrown:**\n   \\[\n   \\text{Total pieces of bologna} = \\text{Pieces of bologna thrown at red balloons} + \\text{Pieces of bologna thrown at yellow balloons}\n   \\]\n   Substituting the known values:\n   \\[\n   58 = 40 + 3y\n   \\]\n\n6. **Solve for \\( y \\):**\n   \\[\n   58 - 40 = 3y\n   \\]\n   \\[\n   18 = 3y\n   \\]\n   \\[\n   y = \\frac{18}{3} = 6\n   \\]\n\nTherefore, there are 6 yellow balloons in the bundle. The final answer is:\n\n\\boxed{6}",
-            "latency": 5.098,
+            "latency": 4.97,
             "input_tokens": 115,
             "output_tokens": 438,
-            "tokens_per_second": 85.91,
+            "tokens_per_second": 88.13,
             "token_limit_reached": false
         }
     ]
