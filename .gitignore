@@ -1,0 +1,17 @@
+# Private datasets
+/Cleaned 50k Raw/
+/data_splits/
+/tokenized_cpt_2048/
+
+# Models and generated artifacts
+/Qwen2.5-0.5B-Uzbek-CPT-LoRA/
+/Qwen2.5-0.5B-Uzbek-CPT-Final/
+/cpt_smoke_test/
+/unsloth_compiled_cache/
+/benchmark_results/
+
+# Local files
+.ipynb_checkpoints/
+__pycache__/
+.env
+.env.*
